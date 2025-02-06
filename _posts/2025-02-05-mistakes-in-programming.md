@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [soopr, config]
+tags: [programming, godot]
 ---
 
 hello?
