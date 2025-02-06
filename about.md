@@ -2,7 +2,12 @@
 layout: post
 title: About
 ---
+## Intro
+Hello! My name is Violet, or Vivi. I like programming games and (sometimes) apps, 
 
-This is an example page!
+## People to support
 
-Actually, it has the same layout of a post...
+Sourmnms: [Youtube][sour-youtube] - [Itch][sour-itch]
+
+[sour-youtube]: https://www.youtube.com/@SourMnMs
+[sour-itch]: https://sourmnms.itch.io/
