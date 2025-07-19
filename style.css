@@ -1,7 +1,80 @@
 body {
-    background-image: url("background.jpg");
+    font-family: Tiny5;
+    background-image: url("images/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
+    -ms-interpolation-mode: nearest-neighbor;
     image-rendering: -moz-crisp-edges;
 }
+
+p {
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    color:black;
+}
+@font-face {
+  font-family: Caveat;
+  src: url(fonts/Caveat-VariableFont_wght.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Tiny5;
+  src: url(fonts/Tiny5-Regular.ttf);
+  font-weight: bold;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px black;
+    padding: 10px;
+    position: absolute;
+}
+.title {
+    
+    margin: auto;
+    color:#ffafcc;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a{
+    outline: white;
+    position: relative;
+    float:left;
+    color:#ffafcc;
+    text-align: center;
+    padding: 17px 19px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.topnav a:hover {
+    background-color: #bde0fe;
+    color: black;
+
+}
+
+.topnav a.active {
+    background-color: #bde0fe;
+    color: white;
+}
+
+.picture {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+}
+
