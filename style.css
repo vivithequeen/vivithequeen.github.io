@@ -7,6 +7,7 @@ body {
     background-position: center;
     -ms-interpolation-mode: nearest-neighbor;
     image-rendering: -moz-crisp-edges;
+    margin: 0;
 }
 
 p {
@@ -14,6 +15,12 @@ p {
     font-size: 20px;
     margin: auto;
     color:black;
+}
+ul {
+  display: table;
+  margin: 0 auto;
+  
+  font-size: 20px;
 }
 @font-face {
   font-family: Caveat;
@@ -71,10 +78,34 @@ p {
 }
 
 .picture {
-    width: 30%;
+    
+    width: 20%;
     margin-right: auto;
     margin-left: auto;
     display: block;
 
 }
+.navbar {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #a2d2ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #ffc8dd;
+  color: black;
+}
 
+.navbarimage {
+    width: 3%;
+}
