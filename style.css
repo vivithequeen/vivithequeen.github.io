@@ -146,7 +146,7 @@ ul {
 }
 
 .projectflexbox {
-  
+
 }
 
 .projecttitle {
@@ -164,4 +164,18 @@ ul {
   margin: auto;
 
   display: block;
+}
+
+.flexrow { 
+    display: flex;
+    flex-direction: row;
+    
+}
+.tiktactoebox { 
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding: 40px;
+    background-color: rgb(99, 9, 9);
+    
 }
